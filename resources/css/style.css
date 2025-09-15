@@ -29,3 +29,7 @@ article {
 .project-description p {
     margin: 10px;
 }
+
+a {
+    color: #d11149;
+}
