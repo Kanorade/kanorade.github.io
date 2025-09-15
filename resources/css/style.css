@@ -10,6 +10,7 @@ body {
 article {
     border: 1px solid seashell;
     padding: 20px;
+    margin: 10px auto;
 }
 
 .subtitle {
