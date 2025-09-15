@@ -26,10 +26,20 @@ article {
     margin: 10px;
 }
 
+.preview-image:hover {
+    opacity: 0.8;
+}
+
 .project-description p {
     margin: 10px;
 }
 
 a {
-    color: #d11149;
+    color: #F4B860;
+}
+
+a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+
 }
