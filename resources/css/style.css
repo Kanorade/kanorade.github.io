@@ -17,13 +17,23 @@ main {
 h1 {
     font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
     text-align: left;
-    
+}
+
+.subject-title {
+    font-family: 'Domine', Arial, Helvetica, sans-serif;
+    color: plum;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 article {
+    width: 400px;
     border: 1px solid seashell;
     padding: 20px;
-    margin: 10px auto;
+    margin: 10px;
 }
 
 .subtitle {
@@ -33,6 +43,10 @@ article {
 
 .project-description {
     display: flex;
+}
+
+.project-description p {
+    scroll-behavior: smooth;
 }
 
 .preview-image {
