@@ -30,10 +30,12 @@ h1, h2, h3 {
 }
 
 article {
-    width: 400px;
+    
     border: 1px solid seashell;
     padding: 20px;
     margin: 10px;
+    flex-grow: 1;
+    flex-basis: 300px;      /* Will avoid shrinking below this witdh*/
 }
 
 .subtitle {
@@ -43,6 +45,12 @@ article {
 
 .project-description {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.project-description p {
+    flex-basis: 180px;
+    flex-grow: 1;
 }
 
 .preview-image {
