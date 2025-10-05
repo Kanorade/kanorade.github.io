@@ -6,27 +6,27 @@ body {
 }
 
 header {
-    margin: 15px;
+    margin: 10px;
 }
 
 main {
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 10px auto;
+    padding: 0px 10px;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
-    text-align: left;
 }
 
 .subject-title {
-    font-family: 'Domine', Arial, Helvetica, sans-serif;
     color: plum;
 }
 
 .project-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 article {
@@ -45,21 +45,10 @@ article {
     display: flex;
 }
 
-.project-description p {
-    scroll-behavior: smooth;
-}
-
 .preview-image {
     width: 200px;
-    margin: 10px;
-}
-
-.preview-image:hover {
-    opacity: 0.8;
-}
-
-.project-description p {
-    margin: 10px;
+    margin-right: 20px;
+    text-align: center;
 }
 
 a {
